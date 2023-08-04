@@ -1,0 +1,87 @@
+Release Name: an-flac-codec-rt685
+Release Version: 1.0
+Package License: LA_OPT_NXP_Software_License v48 July 2023 - Additional Distribution license granted, Section 2.3 applies
+License File: LICENSE.txt
+Description: This application note introduces the FLAC codec library porting on i.MX RT6xx, compares the performance differences between CM33 and HiFi4 DSP.
+Release Location: https://github.com/nxp-appcodehub/an-flac-codec-rt685
+Origin: NXP
+
+SDK_Peripheral_Driver      Name: SDK Peripheral Driver                       
+                           Version: 2.x.x                                    
+                           Outgoing License: BSD-3-Clause                    
+                           License File: COPYING-BSD-3                       
+                           Format: source code                               
+                           Description: Peripheral drivers are designed for  
+                           the most common use cases identified for the      
+                           underlying hardware block.                        
+                           Location: cm33/FLAC_demo/drivers, dsp/xtensa/drivers
+                           Origin: NXP (BSD-3-Clause)                        
+
+                 
+SDK_Device                 Name: SDK SoC files                               
+                           Version: NA                                       
+                           Outgoing License: BSD-3-Clause                    
+                           License File: COPYING-BSD-3                       
+                           Format: source code, linker files                 
+                           Description: Device system files, template files, 
+                           IDE related startup and linker files.             
+                           Location: cm33/FLAC_demo/device, dsp/xtensa/device
+                           Origin: NXP (BSD-3-Clause)                        
+
+cmsis                      Name: CMSIS                                       
+                           Version: 5.8.0                                    
+                           Outgoing License: Apache License 2.0              
+                           License File: CMSIS/LICENSE.txt                   
+                           Format: source code                               
+                           Description: Vendor-independent hardware          
+                           abstraction layer for microcontrollers that are   
+                           based on Arm Cortex processors, distributed by    
+                           ARM. cores                                        
+                           Location: cm33/FLAC_demo/CMSIS, dsp/xtensa/CMSIS
+                           Origin: ARM (Apache-2.0) -                        
+                           https://github.com/ARM-software/CMSIS_5/releases/t
+                           ag/5.8.0                                          
+
+SDK_Components             Name: SDK components and board peripheral drivers 
+                           Version: NA                                       
+                           Outgoing License: BSD-3-Clause                    
+                           License File: COPYING-BSD-3                       
+                           Format: source code                               
+                           Description: SDK components and board peripheral  
+                           drivers, for example, flash and codec drivers.    
+                           Location: cm33/FLAC_demo/component, dsp/xtensa/component
+                           Origin: NXP (BSD-3-Clause), ITE (BSD-3-Clause)           
+
+sdmmc                      Name: SD MMC SDIO Card middleware                 
+                           Version: 2.2.7                                    
+                           Outgoing License: BSD-3-Clause                    
+                           License File: COPYING-BSD-3                       
+                           Format: source code                               
+                           Description: A software component support SD card,
+                           eMMC card, SDIO card.                             
+                           Location: cm33/FLAC_demo/sdmmc                        
+                           Origin: NXP (BSD-3-Clause)                        
+
+fatfs                      Name: FatFs                                       
+                           Version: 0.14b                                    
+                           Outgoing License: FatFs License                   
+                           License File: cm33/FLAC_demo/fatfs/LICENSE.txt        
+                           Format: source code                               
+                           Description: Generic FAT file system for small    
+                           embedded devices.                                 
+                           Location: cm33/FLAC_demo/fatfs                        
+                           Origin: Electronic Lives Mfg. by ChaN of Ageo     
+                           city, Japan (FatFs License)                       
+                           Approved open source license: Yes                 
+                           Url: http://elm-chan.org/fsw/ff/00index_e.html    
+
+FLAC		               Name: FLAC               
+                           Version: 1.3.4                                   
+                           Outgoing License: BSD              
+                           License File: cm33/FLAC_demo/libFLAC/COPYING.Xiph                 
+                           Format: source code                               
+                           Description: FLAC codec source code                
+                           Location: cm33/FLAC_demo/libFLAC, dsp/xtensa/flac
+                           Origin:  Xiph.Org Foundation (BSD)                                
+			               Url:https://xiph.org/flac/
+                        
