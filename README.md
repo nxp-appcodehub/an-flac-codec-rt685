@@ -24,8 +24,8 @@ https://www.nxp.com.cn/docs/en/application-note/AN13793.pdf
 
 ## 1. Software<a name="step1"></a>
 - SDK: 2.12.1
-- FLAC: 1.3.4
-- FatFS: R0.14b 
+- [FLAC: 1.3.4](https://xiph.org/flac/)
+- [FatFS: R0.14b](http://elm-chan.org/fsw/ff/00index_e.html)
 - CM33: IAR embedded Workbench  9.30.1
 - HiFi4: Xtensa Xplorer 9.0.18
   
@@ -33,7 +33,7 @@ https://www.nxp.com.cn/docs/en/application-note/AN13793.pdf
 
 ## 2. Hardware<a name="step2"></a>
 - Micro USB Cable
-- EVK-MIMXRT685 REV E2 Board
+- [EVK-MIMXRT685 REV E2 Board](https://www.nxp.com/design/development-boards/i-mx-evaluation-and-development-boards/i-mx-rt600-evaluation-kit:MIMXRT685-EVK)
 - Personal Computer
 - SD Card
 
